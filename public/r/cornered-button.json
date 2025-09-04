@@ -5,7 +5,7 @@
   "title": "Cornered Button",
   "description": "A button with darker cornered edges.",
   "dependencies": [
-    "radix-ui/react-slot"
+    "radix-ui"
   ],
   "files": [
     {

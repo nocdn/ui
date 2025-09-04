@@ -14,7 +14,7 @@
           "type": "registry:ui"
         }
       ],
-      "dependencies": ["radix-ui/react-slot"]
+      "dependencies": ["radix-ui"]
     }
   ]
 }
