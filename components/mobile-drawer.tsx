@@ -1,11 +1,11 @@
 "use client"
 
-import { Menu, Search } from "lucide-react"
-import Link from "next/link"
+import Link from "@/components/link"
+import { sections } from "@/lib/docs-navigation"
 import { usePathname } from "next/navigation"
 import { useEffect, useState } from "react"
 import { Drawer } from "vaul"
-import { sections } from "./sidebar"
+import { MenuIcon, SearchIcon } from "./icons"
 
 export function MobileDrawer() {
   const [open, setOpen] = useState(false)
@@ -34,7 +34,7 @@ export function MobileDrawer() {
     <Drawer.Root shouldScaleBackground open={open} onOpenChange={setOpen}>
       <Drawer.Trigger asChild>
         <button className="cursor-pointer md:hidden" aria-label="Open menu">
-          <Menu size={20} />
+          <MenuIcon className="size-5" strokeWidth={2} />
         </button>
       </Drawer.Trigger>
       <Drawer.Portal>
@@ -44,7 +44,7 @@ export function MobileDrawer() {
           <Drawer.Title className="sr-only">Navigation</Drawer.Title>
           <div className="shrink-0 p-4">
             <div className="flex items-center gap-2 rounded-lg border border-gray-950/5 bg-gray-950/2 dark:border-white/8 dark:bg-white/5 px-3 py-2">
-              <Search size={16} className="text-gray-400 dark:text-neutral-500" />
+              <SearchIcon className="size-4 text-gray-400 dark:text-neutral-500" strokeWidth={2} />
               <input
                 type="text"
                 placeholder="Search..."

@@ -1,8 +1,8 @@
 "use client"
 
-import { Moon, Sun } from "lucide-react"
 import { useTheme } from "next-themes"
 import { useEffect, useState } from "react"
+import { MoonIcon, SunIcon } from "./icons"
 
 export function ThemeToggle() {
   const { theme, setTheme } = useTheme()
@@ -18,7 +18,7 @@ export function ThemeToggle() {
       className="touch-hitbox text-foreground/70 hover:text-foreground cursor-pointer transition-colors"
       aria-label={theme === "dark" ? "Switch to light mode" : "Switch to dark mode"}
     >
-      {theme === "dark" ? <Sun className="size-[16px]" /> : <Moon className="size-[16px]" />}
+      {theme === "dark" ? <SunIcon className="size-4" strokeWidth={2} /> : <MoonIcon className="size-4" strokeWidth={2} />}
     </button>
   )
 }

@@ -7,7 +7,8 @@ export default function CornerBannerPage() {
     <ComponentLayout
       componentName="Corner Banner"
       description="A banner that is anchored to the corner of a component. Follows accessibility guidelines."
-      comingSoon={true}
+      statusLabel="COMING SOON"
+      statusClassName="text-blue-600 dark:text-blue-400"
     />
   )
 }

@@ -1,40 +1,11 @@
 import { ThemeProvider } from "@/components/theme-provider"
-import { SpeedInsights } from "@vercel/speed-insights/next"
 import type { Metadata } from "next"
-import { Geist, Geist_Mono, Inter, JetBrains_Mono } from "next/font/google"
-import localFont from "next/font/local"
+import { Geist } from "next/font/google"
 import "./globals.css"
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
-})
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-})
-
-const inter = Inter({
-  variable: "--font-inter",
-  subsets: ["latin"],
-})
-
-const jetBrainsMono = JetBrains_Mono({
-  variable: "--font-jetbrains-mono",
-  subsets: ["latin"],
-})
-
-const ioskeleyMono = localFont({
-  src: [
-    { path: "./fonts/IoskeleyMono-Light.woff2", weight: "300" },
-    { path: "./fonts/IoskeleyMono-Regular.woff2", weight: "400" },
-    { path: "./fonts/IoskeleyMono-Medium.woff2", weight: "500" },
-    { path: "./fonts/IoskeleyMono-SemiBold.woff2", weight: "600" },
-    { path: "./fonts/IoskeleyMono-Bold.woff2", weight: "700" },
-    { path: "./fonts/IoskeleyMono-ExtraBold.woff2", weight: "800" },
-  ],
-  variable: "--font-ioskeley-mono",
 })
 
 export const metadata: Metadata = {
@@ -52,15 +23,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} ${inter.variable} ${jetBrainsMono.variable} ${ioskeleyMono.variable} bg-background`}
-      >
+      <body className={`${geistSans.variable} bg-background`}>
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem disableTransitionOnChange>
           <div data-vaul-drawer-wrapper="" className="bg-background min-h-screen">
             {children}
           </div>
         </ThemeProvider>
-        <SpeedInsights />
       </body>
     </html>
   )

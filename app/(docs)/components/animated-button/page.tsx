@@ -1,4 +1,4 @@
-import { ComponentLayout } from "@/components/component-layout"
+import { ComponentShowcaseLayout } from "@/components/component-showcase-layout"
 import { AnimatedButton } from "@/registry/default/ui/animated-button/animated-button"
 import { Box, Check, CircleCheck, Component, Copy, Link, Link2, Unlink2 } from "lucide-react"
 
@@ -6,7 +6,7 @@ export const metadata = { title: "Animated Button" }
 
 export default function AnimatedButtonPage() {
   return (
-    <ComponentLayout
+    <ComponentShowcaseLayout
       componentName="Animated Button"
       description="A button that smoothly transitions between it's two child states."
       installCode="bunx --bun shadcn@latest add https://ui.bartoszbak.org/r/animated-button.json"

@@ -1,6 +1,5 @@
-import { OpenDrawerButton } from "@/components/open-drawer-button"
 import { PageLayout } from "@/components/page-layout"
-import Link from "next/link"
+import Link from "@/components/link"
 
 export const metadata = { title: "Introduction" }
 
@@ -25,7 +24,7 @@ export default function IntroductionPage() {
         </Link>
         .
       </p>
-      <OpenDrawerButton />
+      <p className="mt-6 md:hidden">On mobile, use the menu icon in the top right to open the navigation.</p>
     </PageLayout>
   )
 }

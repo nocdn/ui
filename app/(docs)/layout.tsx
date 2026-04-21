@@ -1,9 +1,10 @@
+import { docsMono, docsSans } from "@/lib/docs-fonts"
 import { Navbar } from "@/components/navbar"
 import { Sidebar } from "@/components/sidebar"
 
 export default function DocsLayout({ children }: any) {
   return (
-    <>
+    <div className={`${docsSans.variable} ${docsMono.variable}`}>
       <Navbar />
       <div className="grid h-[calc(100vh-3.5rem)] w-full grid-cols-1 md:grid-cols-[290px_40px_1fr]">
         <div className="row-span-5 row-start-1 hidden h-full md:block">
@@ -17,6 +18,6 @@ export default function DocsLayout({ children }: any) {
           {children}
         </div>
       </div>
-    </>
+    </div>
   )
 }

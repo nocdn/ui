@@ -1,7 +1,6 @@
-import { ArrowUpRight, Search } from "lucide-react"
-import Link from "next/link"
-import { MobileDrawer } from "./mobile-drawer"
-import { ThemeToggle } from "./theme-toggle"
+import Link from "@/components/link"
+import { ArrowUpRightIcon, SearchIcon } from "./icons"
+import { NavbarActions } from "./navbar-actions"
 
 export function Navbar() {
   return (
@@ -14,7 +13,7 @@ export function Navbar() {
         ui
       </Link>
       <div className="hidden cursor-pointer items-center gap-3 rounded-full border border-gray-950/5 dark:border-white/8 bg-gray-950/2 dark:bg-white/5 py-1.25 pr-2.5 pl-2 md:flex">
-        <Search size={14} />
+        <SearchIcon className="size-[14px]" strokeWidth={2} />
         <p className="text-xs">⌘ + K</p>
       </div>
       <Link href="/installation" prefetch={true} className="hidden cursor-pointer md:block">
@@ -33,10 +32,9 @@ export function Navbar() {
         rel="noopener noreferrer"
         className="hidden cursor-pointer items-center gap-1 md:flex"
       >
-        Source <ArrowUpRight size={16} strokeWidth={2.15} className="translate-y-[1px]" />
+        Source <ArrowUpRightIcon className="size-4 translate-y-[1px]" strokeWidth={2.15} />
       </a>
-      <ThemeToggle />
-      <MobileDrawer />
+      <NavbarActions />
     </div>
   )
 }

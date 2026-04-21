@@ -1,11 +1,11 @@
-import { ComponentLayout } from "@/components/component-layout"
+import { ComponentShowcaseLayout } from "@/components/component-showcase-layout"
 import { TickerPreview } from "./ticker-preview"
 
 export const metadata = { title: "Animated Ticker" }
 
 export default function TickerPage() {
   return (
-    <ComponentLayout
+    <ComponentShowcaseLayout
       componentName="Animated Ticker"
       description="A status ticker that animates nicely when the text prop changes."
       installCode="bunx --bun shadcn@latest add https://ui.bartoszbak.org/r/ticker.json"

@@ -1,5 +1,6 @@
+import Link from "@/components/link"
 import { PageLayout } from "@/components/page-layout"
-import { TerminalCodeBlock } from "@/components/terminal-code-block"
+import { StaticTerminalCodeBlock } from "@/components/static-terminal-code-block"
 
 export const metadata = { title: "Installation" }
 
@@ -23,13 +24,13 @@ export default function InstallationPage() {
         Once shadcn is configured for your environment, you can install each component through the
         shadcn command line like so:
       </p>
-      <TerminalCodeBlock code="bunx --bun shadcn@latest add https://ui.bartoszbak.org/r/cornered-button.json" />
+      <StaticTerminalCodeBlock code="bunx --bun shadcn@latest add https://ui.bartoszbak.org/r/cornered-button.json" />
       <p>
         This will install the cornered button component, which you can check out in more detail
         here:{" "}
-        <a href="/components/cornered-button" className="cursor-pointer font-medium text-blue-700 dark:text-blue-400">
+        <Link href="/components/cornered-button" className="cursor-pointer font-medium text-blue-700 dark:text-blue-400">
           cornered button
-        </a>
+        </Link>
         .
       </p>
     </PageLayout>

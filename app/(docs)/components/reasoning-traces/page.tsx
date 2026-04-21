@@ -7,7 +7,8 @@ export default function ReasoningTracesPage() {
     <ComponentLayout
       componentName="Reasoning Traces"
       description="A component that displays reasoning traces (thoughts), for a large language model."
-      comingSoon={true}
+      statusLabel="COMING SOON"
+      statusClassName="text-blue-600 dark:text-blue-400"
     />
   )
 }

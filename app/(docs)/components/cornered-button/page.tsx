@@ -1,4 +1,4 @@
-import { ComponentLayout } from "@/components/component-layout"
+import { ComponentShowcaseLayout } from "@/components/component-showcase-layout"
 import { CorneredButton } from "@/registry/default/ui/cornered-button/cornered-button"
 import { Check } from "lucide-react"
 
@@ -6,7 +6,7 @@ export const metadata = { title: "Cornered Button" }
 
 export default function CorneredButtonPage() {
   return (
-    <ComponentLayout
+    <ComponentShowcaseLayout
       componentName="Cornered Button"
       description="This is a button, inspired by @aliszu, with a border and darker corners. Customiseable with props, adheres to shadcn/ui styling with accessibility in mind, with button semantics and keyboard navigation."
       installCode="bunx --bun shadcn@latest add https://ui.bartoszbak.org/r/cornered-button.json"
