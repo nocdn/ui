@@ -7,6 +7,9 @@ export function ComponentLayout({
 }: any) {
   return (
     <div className="max-w-3xl pb-12">
+      <blockquote className="sr-only">
+        For the complete documentation index, see <a href="/llms.txt">llms.txt</a>
+      </blockquote>
       <p className={`font-jetbrains-mono text-[12px] leading-6 tracking-widest font-semibold ${statusClassName}`}>
         {statusLabel}
       </p>

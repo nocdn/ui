@@ -23,7 +23,10 @@ export const sections = [
   },
   {
     title: "RECREATIONS",
-    links: [{ name: "iPadOS Controls", href: "/recreations/traffic-lights" }],
+    links: [
+      { name: "iPadOS Controls", href: "/recreations/traffic-lights" },
+      { name: "TikTok Loader", href: "/recreations/tiktok-loader" },
+    ],
   },
   {
     title: "CONTACT",

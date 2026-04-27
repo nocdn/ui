@@ -1,6 +1,9 @@
 export function PageLayout({ category, title, children }: any) {
   return (
     <div className="max-w-4xl">
+      <blockquote className="sr-only">
+        For the complete documentation index, see <a href="/llms.txt">llms.txt</a>
+      </blockquote>
       <p className="font-jetbrains-mono text-[12px] leading-6 font-semibold tracking-widest text-gray-600 dark:text-neutral-500">
         {category}
       </p>

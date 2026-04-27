@@ -6,30 +6,31 @@ nocdn/ui is a docs-first component library. The documentation is organized for q
 
 ## Docs
 
-- [Introduction](https://ui.bartoszbak.org/introduction): Library goals, scope, and where to start.
-- [Installation](https://ui.bartoszbak.org/installation): How to install components via the shadcn registry.
-- [Compatibility](https://ui.bartoszbak.org/compatibility): Supported React, TypeScript, and Tailwind versions plus troubleshooting.
+- [Introduction](https://ui.bartoszbak.org/introduction.md): Library goals, scope, and where to start.
+- [Installation](https://ui.bartoszbak.org/installation.md): How to install components via the shadcn registry.
+- [Compatibility](https://ui.bartoszbak.org/compatibility.md): Supported React, TypeScript, and Tailwind versions plus troubleshooting.
 
 ## Components
 
-- [Cornered Button](https://ui.bartoszbak.org/components/cornered-button): Button with corner accents, install command, usage example, and API table.
-- [Animated Ticker](https://ui.bartoszbak.org/components/ticker): Animated status ticker with install command, usage example, and API table.
-- [Animated Button](https://ui.bartoszbak.org/components/animated-button): Animated button pattern with primary and secondary states.
-- [Corner Banner](https://ui.bartoszbak.org/components/corner-banner): Planned component page.
-- [Reasoning Traces](https://ui.bartoszbak.org/components/reasoning-traces): Planned component page.
+- [Cornered Button](https://ui.bartoszbak.org/components/cornered-button.md): Button with corner accents, install command, usage example, and API table.
+- [Animated Ticker](https://ui.bartoszbak.org/components/ticker.md): Animated status ticker with install command, usage example, and API table.
+- [Animated Button](https://ui.bartoszbak.org/components/animated-button.md): Animated button pattern with primary and secondary states.
+- [Corner Banner](https://ui.bartoszbak.org/components/corner-banner.md): Planned component page.
+- [Reasoning Traces](https://ui.bartoszbak.org/components/reasoning-traces.md): Planned component page.
 
 ## Experiments
 
-- [Expanding Menu](https://ui.bartoszbak.org/experiments/expanding-menu): Planned experiment page.
+- [Expanding Menu](https://ui.bartoszbak.org/experiments/expanding-menu.md): Planned experiment page.
 
 ## Recreations
 
-- [iPadOS Controls](https://ui.bartoszbak.org/recreations/traffic-lights): Recreation of iPadOS traffic light window controls.
+- [iPadOS Controls](https://ui.bartoszbak.org/recreations/traffic-lights.md): Recreation of iPadOS traffic light window controls.
+- [TikTok Loader](https://ui.bartoszbak.org/recreations/tiktok-loader.md): Recreation of the TikTok loader/spinner animation.
 
 ## Contact
 
-- [Get in touch](https://ui.bartoszbak.org/get-in-touch): Contact entry point.
-- [Contributing](https://ui.bartoszbak.org/contributing): Contribution guidance.
+- [Get in touch](https://ui.bartoszbak.org/get-in-touch.md): Contact entry point.
+- [Contributing](https://ui.bartoszbak.org/contributing.md): Contribution guidance.
 
 ## Optional
 

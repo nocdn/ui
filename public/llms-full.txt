@@ -16,18 +16,19 @@ If this project is deployed on a different domain, replace links accordingly.
 
 ## Route Index
 
-- [Introduction](https://ui.bartoszbak.org/introduction): Library overview and onboarding.
-- [Installation](https://ui.bartoszbak.org/installation): How to install via shadcn.
-- [Compatibility](https://ui.bartoszbak.org/compatibility): Supported versions and troubleshooting.
-- [Cornered Button](https://ui.bartoszbak.org/components/cornered-button): Component docs and API.
-- [Animated Ticker](https://ui.bartoszbak.org/components/ticker): Component docs and API.
-- [Animated Button](https://ui.bartoszbak.org/components/animated-button): Animated button pattern docs and API.
-- [Corner Banner](https://ui.bartoszbak.org/components/corner-banner): Planned page.
-- [Reasoning Traces](https://ui.bartoszbak.org/components/reasoning-traces): Planned page.
-- [Expanding Menu](https://ui.bartoszbak.org/experiments/expanding-menu): Planned page.
-- [iPadOS Controls](https://ui.bartoszbak.org/recreations/traffic-lights): Recreation demo page.
-- [Get in touch](https://ui.bartoszbak.org/get-in-touch): Contact page.
-- [Contributing](https://ui.bartoszbak.org/contributing): Contribution page.
+- [Introduction](https://ui.bartoszbak.org/introduction.md): Library overview and onboarding.
+- [Installation](https://ui.bartoszbak.org/installation.md): How to install via shadcn.
+- [Compatibility](https://ui.bartoszbak.org/compatibility.md): Supported versions and troubleshooting.
+- [Cornered Button](https://ui.bartoszbak.org/components/cornered-button.md): Component docs and API.
+- [Animated Ticker](https://ui.bartoszbak.org/components/ticker.md): Component docs and API.
+- [Animated Button](https://ui.bartoszbak.org/components/animated-button.md): Animated button pattern docs and API.
+- [Corner Banner](https://ui.bartoszbak.org/components/corner-banner.md): Planned page.
+- [Reasoning Traces](https://ui.bartoszbak.org/components/reasoning-traces.md): Planned page.
+- [Expanding Menu](https://ui.bartoszbak.org/experiments/expanding-menu.md): Planned page.
+- [iPadOS Controls](https://ui.bartoszbak.org/recreations/traffic-lights.md): Recreation demo page.
+- [TikTok Loader](https://ui.bartoszbak.org/recreations/tiktok-loader.md): Recreation demo page.
+- [Get in touch](https://ui.bartoszbak.org/get-in-touch.md): Contact page.
+- [Contributing](https://ui.bartoszbak.org/contributing.md): Contribution page.
 
 ## Documentation Content
 
@@ -154,6 +155,14 @@ Summary:
 
 - Recreation of iPadOS-style traffic light window controls.
 - Page includes an interactive demo component.
+
+### TikTok Loader (`/recreations/tiktok-loader`)
+
+Summary:
+
+- Recreation of the TikTok loader/spinner animation.
+- Uses two overlapping circles (red and blue) that swap positions with motion animation.
+- Page includes an interactive demo component with a toggle button.
 
 ### Get in touch (`/get-in-touch`)
 
