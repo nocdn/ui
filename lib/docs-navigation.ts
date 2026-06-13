@@ -19,7 +19,10 @@ export const sections = [
   },
   {
     title: "EXPERIMENTS",
-    links: [{ name: "Expanding Menu", href: "/experiments/expanding-menu" }],
+    links: [
+      { name: "Expanding Menu", href: "/experiments/expanding-menu" },
+      { name: "Shimmering Loading Button", href: "/experiments/shimmering-button" },
+    ],
   },
   {
     title: "RECREATIONS",
